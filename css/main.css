@@ -1,0 +1,58 @@
+/*Fonts*/
+@font-face {
+    font-family: opensans;
+    src: url("../fonts/condbold.ttf");
+}
+
+body{
+    font-family: opensans;
+}
+
+.active{
+    border-bottom: 2px solid white;
+}
+
+:root{
+    --roxo: #676099;
+    --bege: #FCE7E9;
+    --amarelo: #FFE078;
+    --azul:#B3DEEF;
+}
+
+.roxo{
+    color: var(--roxo);
+}
+.bege{
+    color: var(--bege);
+}
+.amarelo{
+    color: var(--amarelo);
+}
+.azul{
+    color: var(--azul);
+}
+.branco{
+    color: white;
+}
+
+
+.bg-gradientpreto{
+    background-image: linear-gradient(#00000069, #ffff0000);
+}
+.bg-amarelo{
+    background-color: var(--amarelo);
+}
+
+.navbar-nav{
+    letter-spacing: 5px;
+}
+
+.capa{
+    margin-top: -80px;
+}
+
+.navbar-nav a:hover{
+    border-bottom: 1px solid white;
+    color: white
+}
+
