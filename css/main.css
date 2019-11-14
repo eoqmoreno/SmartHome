@@ -43,6 +43,18 @@ body{
     background-color: var(--amarelo);
 }
 
+.bg-roxo{
+    background-color: var(--roxo);
+}
+
+.bg-bege{
+    background-color: var(--bege);
+}
+
+.bg-azul{
+    background-color: var(--azul);
+}
+
 .navbar-nav{
     letter-spacing: 5px;
 }
@@ -56,3 +68,34 @@ body{
     color: white
 }
 
+.flutuante {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.sombra{
+    box-shadow:1px 1px 5px #c0c0c0;  
+}
+
+/* Barra */
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #A2A5A5; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #29bBE2; 
+  }
