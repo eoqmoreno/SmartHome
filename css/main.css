@@ -1,11 +1,11 @@
 /*Fonts*/
 @font-face {
-    font-family: opensans;
+    font-family: OpenSans-CondensedBold;
     src: url("../fonts/condbold.ttf");
 }
 
 body{
-    font-family: opensans;
+    font-family: OpenSans-CondensedBold;
     /* overflow: hidden; */
 }
 
