@@ -1,11 +1,16 @@
 /*Fonts*/
 @font-face {
-    font-family: opensans;
+    font-family: OpenSans-CondensedBold;
     src: url("../fonts/condbold.ttf");
 }
 
 body{
+<<<<<<< HEAD
     font-family: opensans;
+=======
+    font-family: OpenSans-CondensedBold;
+    /* overflow: hidden; */
+>>>>>>> 2236a102dfbd28916f85117b40a7abf6bb287c95
 }
 
 .active{
